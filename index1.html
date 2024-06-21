@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>実験</title>
+    <meta name="description" content="猫の好きなもの、日々の生活をご紹介">
+    <link rel="stylesheet" href="style1.css">
+  </head>
+
+  <body>
+    <!-- Chapter3-5 -->
+    <p1>あいうえおアイウエオ漢字abcABC123!&?</p1>
+    <p2>あいうえおアイウエオ漢字abcABC123!&?</p2>
+    <p3>あいうえおアイウエオ漢字abcABC123!&?</p3>
+    <p4>あいうえおアイウエオ漢字abcABC123!&?</p4>
+    <p5>あいうえおアイウエオ漢字abcABC123!&?</p5>
+    <p6>あいうえおアイウエオ漢字abcABC123!&?</p6>
+    <p7>あいうえおアイウエオ漢字abcABC123!&?</p7>
+
+    <h1>猫の一日</h1>
+    <h2>ひらすら寝ています</h2>
+    <p>
+        猫は毎日12〜16時間は睡眠をとると言われています。
+        ただし、熟睡している時間は意外と少なく、ほとんどが浅い眠りです。
+        物音がするとすぐ目を覚ますのはそのせいなんですね。
+    </p>
+
+    <!-- Chapter3-4 -->
+    <div>
+      まんまる子猫
+    </div>
+    
+    <div>
+      まんまる子猫
+      <p>まんまる子猫</p>
+    </div>
+
+    <p>
+      まんまる子猫
+    </p>
+
+    <p>
+      まんまる子猫
+      <div>まんまる子猫</div>
+    </p>
+
+    <!-- Chapter2-13 -->
+    <article>
+      <h1>明日の天気</h1>
+      <p>明日は曇のち晴れでしょう。</p>   
+    </article>
+
+    <section>
+      <h2>おすすめの着こなし</h2>
+      <p>この時期は暖かい気温が続きますが、一枚羽織る服があるといいでしょう。</p>
+    </section>
+
+    <!-- Chapter2-12 -->
+    <form action="example.php" method="post" name="contact-form">
+      <input type="checkbox" name="travel" value="日本国内" id="japan">
+      <label for="japan">日本国内</label>
+
+      <input checked type="checkbox" name="travel" value="ヨーロッパ" id="europe">
+      <label for="europe">ヨーロッパ</label>
+      
+      <input type="checkbox" name="travel" value="東南アジア" id="asia">
+      <label for="asia">東南アジア</label>
+      
+    </form>
+    <!-- Chapter2-11 -->
+    <form action="example.php" method="post" name="contact-form">
+      ここにフォームの部品が入ります。
+      名前：<input type="text" placeholder="名字 名前">
+      名前：<input type="search" placeholder="名字 名前">
+      名前：<input type="email" placeholder="名字 名前">
+      名前：<input type="tel" placeholder="名字 名前">
+      名前：<input type="url" placeholder="名字 名前">
+
+      性別：
+      <input type="radio" name="gender" value="男" checked> 男
+      <input type="radio" name="gender" value="女" checked> 女
+      <input type="radio" name="gender" value="その他"> その他
+
+      性別：
+      <input type="checkbox" name="gender" value="男" checked> 男
+      <input type="checkbox" name="gender" value="女" checked> 女
+      <input type="checkbox" name="gender" value="その他"> その他
+
+      <input type="submit" value="送信">
+
+      <input type="image" src="sakura.jpg" alt="送信">
+
+      血液型
+      <select name="bloodtype">
+        <option value="A">A</option>
+        <option value="B" selected>B</option>
+        <option value="O">O</option>
+        <option value="AB" selected>AB</option>
+        <option value="不明">不明</option>
+      </select>
+
+      血液型
+      <select multiple="bloodtype">
+        <option value="A">A</option>
+        <option value="B" selected>B</option>
+        <option value="O">O</option>
+        <option value="AB" selected>AB</option>
+        <option value="不明">不明</option>
+      </select>
+
+      <textarea name="message">メッセージを入力</textarea>
+      <textarea name="message" placeholder="メッセージを入力"></textarea>
+    </form>
+    <!-- Chapter2-10 -->
+    
+    <table border="1">
+      <tr>
+        <th>プラン名</th>
+        <th>料金</th>
+      </tr>
+      <tr>
+        <td rowspan="2">わくわくプラン+にこにこプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>プラン名</th>
+        <th>料金</th>
+      </tr>
+      <tr>
+        <td rowspan="2">わくわくプラン+にこにこプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>プラン名+料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th colspan="">プラン名+料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th colspan="0">プラン名+料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th colspan="1">プラン名+料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th colspan="2">プラン名+料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th colspan="3">プラン名+料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>プラン名</th>
+        <th>料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table border="2">
+      <tr>
+        <th>プラン名</th>
+        <th>料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th>プラン名</th>
+        <th>料金</th>
+      </tr>
+      <tr>
+        <td>わくわくプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>にこにこプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+    <ol>
+      c
+      <li>卵（3個）</li>
+      <li>醤油（大さじ1）</li>
+      <li>みりん（大さじ1）</li>
+      <li>塩（少々） </li>
+    </ol>
+    
+    a
+    b
+    <ul>
+      c
+      <li>卵（3個）</li>
+      <li>醤油（大さじ1）</li>
+      <li>みりん（大さじ1）</li>
+      <li>塩（少々） </li>
+    </ul>
+
+    a
+    b
+    <ul>c</ul>
+    d
+    e
+
+    <a href="mailto:info@example.com">お問い合わせ</a>
+
+    <a href="https://google.co.jp" target="_blank">
+    <img src="sakura.jpg" alt="美しい桜">
+    </a>
+
+    今すぐ<a href="http://google.co.jp">Google</a>で検索！
+
+    <p><img src="sakura.jpg"></p>
+    <p><img src="sakura.jpg" alt=""></p>
+    <p><img src="sakura.jpg" alt="美しい桜"></p>
+
+    <p><img src="sakura1.jpg"></p>
+    <p><img src="sakura1.jpg" alt=""></p>
+    <p><img src="sakura1.jpg" alt="美しい桜"></p>
+
+    <h1>猫の1日</h1>
+    <h2>猫の2日</h2>
+    <h3>猫の3日</h3>
+    <h4>猫の4日</h4>
+    <h5>猫の5日</h5>
+    <h6>猫の6日</h6>
+    <h7>猫の7日</h7>
+
+    <h1>猫の一日</h1>
+    <p>ひたすら寝ています。</p>
+    <a href="index.html">indexページ</a>
+
+    </body>
+</html>
