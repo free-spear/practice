@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+
+/* <!-- Chapter3-5 --> */
+p1 {
+    font-weight: ;
+}
+p2 {
+    font-weight: nomal;
+}
+p3 {
+    font-weight: bold;
+}
+p4 {
+    font-weight: lighter;
+}
+p5 {
+    font-weight: 1;
+}
+p6 {
+    font-weight: 550;
+}
+p7 {
+    font-weight: 1000;
+}
+
+
+
+
+
+
+/* body { */
+/* background-color: #fffeee; */
+/* } */
+ /* h1 { */
+    /* color: #0bd; */
+/* } p{ */
+    /* font-size: 20px; */
+/* } *
+
+/* div {color: blue;} */
+/* p {color: yellow;} */
+/* div p {color: red;} */
+/* p div {color: green;} */
+/* 
+html {
+    font-size: 100%;
+}
+h1 {
+    font-size: 2rem;
+    font-family: serif;
+}
+h2 {
+    font-size: 20px;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+}
+p {
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+}
+p1 {
+    font-family: sans-serif;
+}
+p2 {
+    font-family: serif;
+}
+p3 {
+    font-family: cursive;
+}
+p4 {
+    font-family: fantasy;
+}
+p5 {
+    font-family: monospace;
+}
+p6 {
+    font-family: YuGothic;
+}
+p7 {
+    font-family: ;
+} */
